@@ -1,3 +1,9 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+
 #button1{
     border-radius: 12px;
     border-color: hsl(321, 100%, 78%);
@@ -21,18 +27,13 @@
 }
 
 
-h1,h2,h3{
+h1,h2{
     font-family: 'Poppins', sans-serif;
     width: 550px;
     margin: 0 auto;
   
 }
 
-body{
-    font-family: 'Open Sans', sans-serif;
-   
-
-}
 
 h1{
     display: inline;
@@ -56,7 +57,7 @@ header{
 }
 
 
-p{
+header p{
     width: 23%;
     position: relative;
     left: 550px;
@@ -64,6 +65,16 @@ p{
     font-size: smaller;
     text-align: center;
     
+}
+#top p{
+    width: 23%;
+    position: relative;
+    left: 550px;
+   
+    font-size: smaller;
+    text-align: center;
+    
+
 }
 
 #top{
@@ -77,4 +88,119 @@ p{
     margin-top: 40px;
     height: 525px;
    
+}
+
+
+/*  */
+h3{
+    font-size: 65px;
+  
+}
+
+section  div {
+    text-align: center;
+} 
+
+ section div h3{
+    display: inline;
+}
+
+article p{
+    background-color: red;
+    margin: 0%;
+}
+
+span{
+    margin-left: 400px;
+}
+#mid p{
+    display: inline;
+    margin-left: 400px;
+    color:gray;
+
+}
+
+
+
+/*  */
+
+.imagetext{
+   
+    height: 500px;
+    background-size:contain;
+    background-repeat: no-repeat;
+    
+   
+    
+}
+
+h4{
+    width: 400px;
+   
+    position: relative;
+    top: 150px;
+    left: 100px;
+    font-size: 30px;
+    margin-bottom: 0%;
+}
+#grow p{
+    width: 400px;
+  
+    position: relative;
+    top: 170px;
+    left: 100px;
+    margin-top: 0%;
+    font-size: 10px;
+}
+
+#grow{
+    background-image: url("images/illustration-grow-together.svg");
+    background-color: hsl(207, 100%, 98%);background-position: right;
+   
+}
+
+#flow{
+    background-color:white;
+    background-image: url("images/illustration-flowing-conversation.svg");
+    background-position: left;
+}
+#flow p{
+    width: 400px;
+   
+    position: relative;
+    top: 170px;
+    left: 60%; margin-top: 0%;
+    font-size: 10px;
+}
+#flow strong{
+    width: 200px;
+    
+    position: relative;
+    top: 150px;
+    left: 60%;  font-size: 30px;
+    margin-bottom: 0%;
+}
+#users{
+    background-color:hsl(207, 100%, 98%); 
+    background-image: url("images/illustration-your-users.svg");
+    background-position: right;
+}
+
+#users p{
+    width: 400px;
+    
+    position: relative;
+    top: 170px;
+    left: 100px;
+    margin-top: 0%;
+    font-size: 10px;
+}
+
+#users strong{
+    width: 400px;
+    position: relative;
+    top: 150px;
+    left: 100px;
+    font-size: 30px;
+    margin-bottom: 0%;
 }
