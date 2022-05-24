@@ -109,6 +109,13 @@ article p{
     background-color: red;
     margin: 0%;
 }
+#mid img{
+    margin-left: 400px;
+    height: 25px;
+}
+#mid2{
+    padding-left: 120px;
+}
 
 #mid span{
     margin-left: 400px;
@@ -205,6 +212,20 @@ h4{
     margin-bottom: 0%;
 }
 
+/* Last Section before footer */
+.last{
+   font-size: larger;
+   padding-top: 3em;
+    padding-left: 38em;
+    margin-bottom: 5em;
+    
+}
+#buttonm{
+    margin-left: -575px;
+}
+
+/*  Last Section Ends here */
+
 
 
 /* Begining of Footer css */
@@ -220,28 +241,37 @@ footer p{
 
 #foot-sec-right{
     /* background-color: aquamarine; */
-    display: inline-block;
-    width: 600px;
+    min-width: 50%;
+    margin-left: 2em;
+    margin-top: 2em;
     
-    position: relative;
+    /* position: relative;
     bottom: 100px;
     left: 300px;
-    height: 12em;
+    height: 12em; */
     
     
     
 
 }
 #foot-sec-left{
-    display: inline-block;
+   
     /* background-color: blueviolet; */
-    width: 400px;
-    position: relative;
+    max-width: 50%;
+    margin-left: 2em;
+    margin-top: 2em;
+    /* position: relative;
     top: 75px;
-    left: 50px;
+    left: 50px; */
     
 }
-
+.button3{
+    background-color:hsl(321, 100%, 78%);
+    border-radius: 4px;
+}
+footer input{
+    border-radius: 5px;
+}
 #foot-sec-left img{
     height: 16px; ;
     width: 20px;
@@ -257,3 +287,38 @@ footer p{
 #foot-sec-left span{
     font-size: 15px;
 }
+
+footer div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    
+}
+
+.inline-p{
+    
+    clear: right;
+    
+}
+
+.material-symbols-outlined{
+    float: left;
+    
+}
+
+
+/* Soical Media Icon */
+footer #logo img{
+    height: 25px;
+    width: 25px;
+   
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    margin-right: 1rem;
+}
+
+#logo{
+    margin-left: 2rem;
+}
+
